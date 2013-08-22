@@ -1,0 +1,28 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+<window title="Test con la grilla" border="normal" use="com.devytachi.grilla.PaginacionGrilla">
+	<grid id="grdTest" mold="paging" paginal="${pgTest}" pagingPosition="both" >
+		<columns>
+			<column label="Yty"/>
+		</columns>
+		<rows>
+			<row>
+				<label value="Yty1"/>
+			</row>
+			<row>
+				<label value="Yty2"/>
+			</row>
+			<row>
+				<label value="Yty3"/>
+			</row>
+			<row>
+				<label value="Yty4"/>
+			</row>
+			<row>
+				<label value="Yty5"/>
+			</row>
+		</rows>
+	</grid>
+	<paging id="pgTest" pageSize="1" />
+</window>
+</zk>

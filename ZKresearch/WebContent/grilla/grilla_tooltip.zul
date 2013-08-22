@@ -1,0 +1,15 @@
+<?page title="Grilla con paginacion incluyendo tooltip" contentType="text/html;charset=UTF-8"?>
+<zk>
+<window title="Grilla con paginacion incluyendo tooltip" border="normal" use="com.devytachi.grilla.TooltipGrilla">
+	<grid id="grdGrillaPaginacion">
+		<columns>
+			<column label="Pokemon"/>
+			<column label="Legendario"/>
+		</columns>
+		<rows></rows>
+	</grid>
+	<popup id="popi" width="100px">
+		CArajo!
+	</popup>
+</window>
+</zk>
