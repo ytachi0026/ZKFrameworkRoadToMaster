@@ -4,5 +4,7 @@
 	<vbox>
 		<a href="grilla/grilla_paginacion.zul">Ejemplo de paginacion en la grilla</a>
 		<a href="grilla/grilla_tooltip.zul">Ejemplo de tooltip en la grilla</a>
+		<a href="printPage/printZulPage.zul">Pintar una página ZK</a>
 	</vbox>
+	
 </window>
