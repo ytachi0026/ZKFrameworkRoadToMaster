@@ -1,0 +1,25 @@
+<?page title="print" contentType="text/html;charset=UTF-8"?>
+<zk>
+<window onCreate="init()" />
+	<zscript><![CDATA[
+		public void init() {
+			String parm = Executions.getCurrent().getParameter("parm");
+			output.value = parm;
+			Clients.evalJavaScript("window.focus();window.print();window.close()"); // close the printwindow
+		}]]>
+	</zscript>
+	Content for variant:
+	<label id="output" />
+	<grid>
+		<columns>
+			<column>Pokemon</column>
+			<column>Trainer</column>
+		</columns>
+		<rows>
+			<row>
+				<label>Ytalo</label>
+				<label>Techy</label>
+			</row>
+		</rows>
+	</grid>
+</zk>
