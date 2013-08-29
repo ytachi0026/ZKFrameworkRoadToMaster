@@ -9,4 +9,5 @@ ZKresearch/.settings
 .project
 .gitignore
 .classpath
-
+.metadata
+RemoteSystemsTempFiles
