@@ -2,9 +2,9 @@
 <window title="Pagina de pruebas para ZK" border="normal" width="200px" >
 	<label value="You are using: ${desktop.webApp.version}"/>
 	<vbox>
-		<a href="grilla/grilla_paginacion.zul">Ejemplo de paginacion en la grilla</a>
-		<a href="grilla/grilla_tooltip.zul">Ejemplo de tooltip en la grilla</a>
-		<a href="printPage/printZulPage.zul">Pintar una página ZK</a>
+		<a href="test/grilla/grilla_paginacion.zul">Ejemplo de paginacion en la grilla</a>
+		<a href="test/grilla/grilla_tooltip.zul">Ejemplo de tooltip en la grilla</a>
+		<a href="test/printPage/printZulPage.zul">Pintar una página ZK</a>
 	</vbox>
 	
 </window>
